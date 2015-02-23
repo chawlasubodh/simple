@@ -1,4 +1,5 @@
 ActiveAdmin.register Reservation do
+  permit_params :pickup_at, :return_at, :active
 
 
   # See permitted parameters documentation:
